@@ -1,102 +1,123 @@
-# Project I.G.I Trainer (Free)
+<p align="center">
+  <img src="assets/poster.jpg" alt="Project I.G.I Trainer — God HP, Unlimited Ammo, All Weapons" width="100%">
+</p>
 
-**GitHub:** https://github.com/madehghan/igi
+<p align="center">
+  <a href="https://github.com/madehghan/igi/releases/latest"><img src="https://img.shields.io/github/v/release/madehghan/igi?style=for-the-badge&label=Download&color=2ea44f" alt="Download"></a>
+  <a href="https://github.com/madehghan/igi/stargazers"><img src="https://img.shields.io/github/stars/madehghan/igi?style=for-the-badge&color=e3b341" alt="Stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="MIT"></a>
+  <img src="https://img.shields.io/badge/platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
+  <img src="https://img.shields.io/badge/language-EN%20%7C%20FA-informational?style=for-the-badge" alt="EN FA">
+</p>
 
-Free single-player helper for classic **Project I.G.I (I'm Going In)**.  
-God health · Unlimited ammo · All weapons.
+<h1 align="center">Project I.G.I Trainer (Free / رایگان)</h1>
+
+<p align="center">
+  <b>God HP · Unlimited Ammo · All Weapons</b><br>
+  جان خداگونه · تیر نامحدود · همه سلاح‌ها<br>
+  <a href="https://github.com/madehghan/igi">github.com/madehghan/igi</a>
+</p>
+
+Free open-source **single-player trainer** for classic **Project I.G.I (I'm Going In)** / **پروژه آی‌جی‌آی**.  
+One click. No complicated install. Enjoy.
+
+**Keywords:** Project IGI trainer, IGI cheat, unlimited ammo IGI, god mode IGI, all weapons IGI, Project I.G.I I'm Going In trainer Windows, ترینر آی جی آی، تیر نامحدود آی جی آی، جان نامحدود IGI
 
 ---
 
-## English
+## ⚡ Quick start / شروع سریع
 
-### Features
-| Feature | What it does |
-|--------|----------------|
-| **God HP** | Health stays god-mode (safe NaN style) |
-| **Unlimited Ammo** | Uses the game’s official unlimited-ammo flag + top-up |
-| **All Weapons** | Auto-sends built-in `Ctrl+Shift+P` after you enter a mission |
+| Step | English | فارسی |
+|------|---------|--------|
+| 1 | [Download latest release](https://github.com/madehghan/igi/releases/latest) (`IgiTrainer.exe`) | آخرین نسخه را دانلود کنید |
+| 2 | Put `IgiTrainer.exe` **next to** `IGI.exe` | فایل را **کنار** `IGI.exe` بگذارید |
+| 3 | Run it → click **Play** | اجرا → دکمه **Play** |
+| 4 | Enter a mission — done | وارد مرحله شوید — تموم |
 
-### Requirements
-- A **legal copy** of Project I.G.I (you already own the game)
-- Windows 7+ (x86 game; trainer is 32-bit)
-- .NET Framework 4.x (already on most Windows PCs)
+Or clone:
 
-### Easy install (no Visual Studio needed)
-1. Download this repo → **Code → Download ZIP** (or clone).
-2. Copy these files into your **game folder** (same place as `IGI.exe`):
-   - `IgiTrainer.exe`
-   - `RUN.bat` (optional)
-3. Double-click **`IgiTrainer.exe`** or **`RUN.bat`**.
-4. Click **Play / اجرا**.
-5. Enter a mission — weapons / ammo / god HP kick in automatically.
-
-If `IGI.exe` is not next to the trainer, click **Find IGI.exe…** and pick it.
-
-### Build from source (optional)
-```bat
-BUILD.bat
+```bash
+git clone https://github.com/madehghan/igi.git
+cd igi
+RUN.bat
 ```
-Then run `IgiTrainer.exe`.
 
-### Tips
-- If weapons did not appear, focus the game window and press **Ctrl+Shift+P** once.
-- Antivirus may flag memory trainers — add an exception if needed (source is open here).
-- **Single-player only.** Not for multiplayer / online.
-
-### Disclaimer
-You must own a legitimate copy of the game. This project does **not** include game binaries. Use at your own risk.
+> If the game path is not found, click **Find IGI.exe…** inside the trainer.  
+> اگر مسیر پیدا نشد، داخل ترینر **Find IGI.exe…** را بزنید.
 
 ---
 
-## فارسی
+## ✨ Features / امکانات
 
-### امکانات
-| قابلیت | توضیح |
-|--------|--------|
-| **جان خداگونه** | جان خداگونه می‌ماند |
-| **تیر نامحدود** | فلگ رسمی تیر نامحدود + پر کردن مهمات |
-| **همه سلاح‌ها** | بعد از ورود به مرحله، خودکار `Ctrl+Shift+P` |
+| | English | فارسی |
+|---|---------|--------|
+| ❤️ | **God HP** — safe god-style health | **جان خداگونه** |
+| 🔫 | **Unlimited Ammo** — official game flag + top-up | **تیر نامحدود** |
+| 🧰 | **All Weapons** — auto `Ctrl+Shift+P` after mission start | **همه سلاح‌ها** |
+| 🖥️ | Bilingual UI (EN / FA) | رابط دو زبانه |
+| 📦 | Ready `.exe` + open source `.cs` | آماده + سورس باز |
 
-### پیش‌نیاز
-- نسخه **قانونی** بازی Project I.G.I
-- ویندوز ۷ به بالا
-- .NET Framework 4 (معمولاً از قبل روی ویندوز هست)
+---
 
-### نصب خیلی ساده
-1. از گیت‌هاب دانلود کنید: https://github.com/madehghan/igi  
-   (**Code → Download ZIP**)
-2. این فایل‌ها را **کنار `IGI.exe`** کپی کنید:
-   - `IgiTrainer.exe`
-   - `RUN.bat` (اختیاری)
-3. روی **`IgiTrainer.exe`** یا **`RUN.bat`** دوبار کلیک کنید.
-4. داخل پنجره **Play / اجرا** را بزنید.
-5. وارد مرحله شوید — سلاح، تیر و جان خودکار فعال می‌شوند.
+## 📋 Requirements / پیش‌نیاز
 
-اگر مسیر بازی پیدا نشد، **Find IGI.exe…** را بزنید و فایل بازی را انتخاب کنید.
+- A **legal copy** of Project I.G.I (you own the game) / نسخه قانونی بازی
+- Windows 7+ (32-bit game; trainer is x86)
+- .NET Framework 4.x (usually already installed)
 
-### ساخت از سورس (اختیاری)
+---
+
+## 🛠️ Build from source / ساخت از سورس
+
 ```bat
 BUILD.bat
 ```
 
-### نکته‌ها
-- اگر سلاح نیامد، داخل بازی یک‌بار **Ctrl+Shift+P** بزنید.
-- آنتی‌ویروس ممکن است ترینر را مشکوک بداند — سورس همین‌جاست و رایگان است.
-- **فقط تک‌نفره.**
-
-### سلب مسئولیت
-باید نسخه قانونی بازی را داشته باشید. فایل‌های اصلی بازی داخل این ریپو نیست. استفاده بر عهده خودتان است.
+Creates `IgiTrainer.exe` (needs Windows .NET Framework `csc`).
 
 ---
 
-## Files / فایل‌ها
+## 💡 Tips / نکته‌ها
+
+- Weapons missing? Focus the game and press **Ctrl+Shift+P** once.  
+  سلاح نیامد؟ داخل بازی یک‌بار **Ctrl+Shift+P**.
+- Antivirus may flag memory trainers — source is public here; add an exception if needed.  
+  آنتی‌ویروس ممکن است هشدار بدهد — سورس همین‌جاست.
+- **Single-player only** / فقط تک‌نفره.
+
+---
+
+## 📁 Files / فایل‌ها
 
 | File | Role |
 |------|------|
-| `IgiTrainer.exe` | Ready-to-run trainer |
-| `IgiTrainer.cs` | Full C# source (link to this repo inside) |
+| `IgiTrainer.exe` | Ready trainer |
+| `IgiTrainer.cs` | Full C# source (repo link inside) |
 | `RUN.bat` | One-click start |
-| `BUILD.bat` | Compile from source |
+| `BUILD.bat` | Compile |
+| `assets/poster.jpg` | Project poster |
 | `LICENSE` | MIT — free to use & share |
 
-**Enjoy / کیف کنید:** https://github.com/madehghan/igi
+---
+
+## ⭐ Support the project / حمایت
+
+If this helped you, **star the repo** — it helps others find it in GitHub search.  
+اگر براتون مفید بود **ستاره** بزنید تا در سرچ گیت‌هاب بیشتر دیده شود.
+
+<p align="center">
+  <a href="https://github.com/madehghan/igi/stargazers">⭐ Star madehghan/igi</a>
+  ·
+  <a href="https://github.com/madehghan/igi/releases/latest">⬇️ Download</a>
+  ·
+  <a href="https://github.com/madehghan/igi/issues">Issues</a>
+</p>
+
+---
+
+## ⚠️ Disclaimer / سلب مسئولیت
+
+You must own a legitimate copy of the game. This repository does **not** include game binaries. Use at your own risk.  
+باید نسخه قانونی بازی را داشته باشید. فایل‌های اصلی بازی داخل این ریپو نیست.
+
+**MIT License** · Free forever · https://github.com/madehghan/igi
