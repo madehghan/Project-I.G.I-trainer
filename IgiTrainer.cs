@@ -1,6 +1,6 @@
 // Project I.G.I Trainer — free for everyone
 // GitHub: https://github.com/madehghan/igi
-// Features: god health, unlimited ammo, give all weapons
+// Features: unlimited health, unlimited ammo, give all weapons
 // EN / FA bilingual UI
 
 using System;
@@ -110,14 +110,14 @@ sealed class MainForm : Form {
     hint = new Label {
       AutoSize = false, Left = 12, Top = 8, Width = 530, Height = 78,
       Text =
-        "EN: Unlimited ammo (official flag) · God health (NaN) · All weapons (Ctrl+Shift+P)\n" +
-        "FA: تیر نامحدود · جان خداگونه · همه سلاح‌ها (خودکار یا دکمه)\n" +
+        "EN: Unlimited ammo · Unlimited health · All weapons (Ctrl+Shift+P)\n" +
+        "FA: تیر نامحدود · جان نامحدود · همه سلاح‌ها (خودکار یا دکمه)\n" +
         "Put IgiTrainer.exe next to IGI.exe  |  فایل را کنار IGI.exe بگذارید"
     };
     Controls.Add(hint);
 
-    chkGod = new CheckBox { Text = "God HP / جان خداگونه", Left = 12, Top = 92, Width = 200, Checked = true };
-    chkAmmo = new CheckBox { Text = "Unlimited Ammo / تیر نامحدود", Left = 220, Top = 92, Width = 250, Checked = true };
+    chkGod = new CheckBox { Text = "Unlimited Health / جان نامحدود", Left = 12, Top = 92, Width = 250, Checked = true };
+    chkAmmo = new CheckBox { Text = "Unlimited Ammo / تیر نامحدود", Left = 270, Top = 92, Width = 250, Checked = true };
     chkGod.CheckedChanged += delegate { godEnabled = chkGod.Checked; };
     chkAmmo.CheckedChanged += delegate { ammoEnabled = chkAmmo.Checked; };
     Controls.Add(chkGod); Controls.Add(chkAmmo);
@@ -398,7 +398,7 @@ sealed class MainForm : Form {
               WriteF32(player + OffHealth, float.NaN);
               writeCount++;
               lastGodWriteUtc = DateTime.UtcNow;
-              Log("NaN god HP");
+              Log("unlimited health");
             }
           }
 

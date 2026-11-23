@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/poster.jpg" alt="Project I.G.I Trainer — God HP, Unlimited Ammo, All Weapons" width="100%">
+  <img src="assets/poster.jpg" alt="Project I.G.I Trainer — Unlimited Health, Unlimited Ammo, All Weapons" width="100%">
 </p>
 
 <p align="center">
@@ -13,15 +13,15 @@
 <h1 align="center">Project I.G.I Trainer (Free / رایگان)</h1>
 
 <p align="center">
-  <b>God HP · Unlimited Ammo · All Weapons</b><br>
-  جان خداگونه · تیر نامحدود · همه سلاح‌ها<br>
+  <b>Unlimited Health · Unlimited Ammo · All Weapons</b><br>
+  جان نامحدود · تیر نامحدود · همه سلاح‌ها<br>
   <a href="https://github.com/madehghan/igi">github.com/madehghan/igi</a>
 </p>
 
 Free open-source **single-player trainer** for classic **Project I.G.I (I'm Going In)** / **پروژه آی‌جی‌آی**.  
 One click. No complicated install. Enjoy.
 
-**Keywords:** Project IGI trainer, IGI cheat, unlimited ammo IGI, god mode IGI, all weapons IGI, Project I.G.I I'm Going In trainer Windows, ترینر آی جی آی، تیر نامحدود آی جی آی، جان نامحدود IGI
+**Keywords:** Project IGI trainer, IGI cheat, unlimited ammo IGI, unlimited health IGI, all weapons IGI, Project I.G.I I'm Going In trainer Windows, ترینر آی جی آی، تیر نامحدود آی جی آی، جان نامحدود IGI
 
 ---
 
@@ -51,7 +51,7 @@ RUN.bat
 
 | | English | فارسی |
 |---|---------|--------|
-| ❤️ | **God HP** — safe god-style health | **جان خداگونه** |
+| ❤️ | **Unlimited Health** — you don’t go down | **جان نامحدود** |
 | 🔫 | **Unlimited Ammo** — official game flag + top-up | **تیر نامحدود** |
 | 🧰 | **All Weapons** — auto `Ctrl+Shift+P` after mission start | **همه سلاح‌ها** |
 | 🖥️ | Bilingual UI (EN / FA) | رابط دو زبانه |
