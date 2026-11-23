@@ -1,5 +1,5 @@
 // Project I.G.I Trainer — free for everyone
-// GitHub: https://github.com/madehghan/igi
+// GitHub: https://github.com/madehghan/Project-I.G.I-trainer
 // Features: unlimited health, unlimited ammo, give all weapons
 // EN / FA bilingual UI
 
@@ -23,7 +23,7 @@ static class Native {
 }
 
 sealed class MainForm : Form {
-  public const string RepoUrl = "https://github.com/madehghan/igi";
+  public const string RepoUrl = "https://github.com/madehghan/Project-I.G.I-trainer";
   const uint PtrBase = 0x0056E210;
   // Official IGI-Internal flags (soft memory, no code patch):
   const uint AddrUnlimAmmo = 0x0056E214;   // WEAPON::UNLIMITED_AMMO_SET
@@ -97,7 +97,7 @@ sealed class MainForm : Form {
       "IgiTrainer.log");
     try { File.WriteAllText(logPath, ""); } catch {}
 
-    Text = "Project I.G.I Trainer | madehghan/igi";
+    Text = "Project I.G.I Trainer | madehghan/Project-I.G.I-trainer";
     FormBorderStyle = FormBorderStyle.FixedSingle;
     MaximizeBox = false;
     MinimizeBox = true;

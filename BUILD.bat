@@ -17,5 +17,5 @@ if errorlevel 1 (
   exit /b 1
 )
 echo Built: IgiTrainer.exe
-echo GitHub: https://github.com/madehghan/igi
+echo GitHub: https://github.com/madehghan/Project-I.G.I-trainer
 exit /b 0

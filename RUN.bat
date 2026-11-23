@@ -1,11 +1,11 @@
 @echo off
 chcp 65001 >nul
-title Project I.G.I Trainer — https://github.com/madehghan/igi
+title Project I.G.I Trainer — https://github.com/madehghan/Project-I.G.I-trainer
 cd /d "%~dp0"
 
 echo ============================================
 echo  Project I.G.I Trainer (free)
-echo  https://github.com/madehghan/igi
+echo  https://github.com/madehghan/Project-I.G.I-trainer
 echo ============================================
 echo.
 echo  EN: Put this folder's files next to IGI.exe, then run this.
